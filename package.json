@@ -1,0 +1,40 @@
+{
+  "name": "vue-cli-plugin-vuex-modules",
+  "version": "1.0.0",
+  "description": "creates structure for namespaced vuex modules",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "<rootDir>/scripts/testSetup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "./generator/template/",
+      "./generator/generator.js"
+    ]
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "vue-cli"
+  ],
+  "author": "Divya Sasidharan",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.0.0-beta.15",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/cli-test-utils": "^3.0.0-beta.15",
+    "fs-extra": "^6.0.1",
+    "jest": "^23.1.0",
+    "vue": "^2.5.16"
+  }
+}
